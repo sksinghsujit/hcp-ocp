@@ -8,5 +8,3 @@ variable "AAP_HOST" {
   type        = string
   description = "The internal URL/IP of your AAP instance"
 }
-
-# The update
