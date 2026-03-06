@@ -8,3 +8,5 @@ variable "AAP_HOST" {
   type        = string
   description = "The internal URL/IP of your AAP instance"
 }
+
+# This is to test auto trigger.
