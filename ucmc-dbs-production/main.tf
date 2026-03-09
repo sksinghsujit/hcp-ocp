@@ -9,7 +9,7 @@ provider "kubernetes" {
 }
 
 module "dbs_cluster" {
-  source = "github.com/sksinghsujit/terraform-modules//modules/dbs-cluster?ref=v-1.0.4"
+  source = "github.com/sksinghsujit/terraform-modules//modules/dbs-cluster?ref=v-1.0.5"
   K8S_HOST = var.K8S_HOST
   K8S_TOKEN = var.K8S_TOKEN
   K8S_CA_CERT = var.K8S_CA_CERT
