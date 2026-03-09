@@ -2,6 +2,7 @@ variable "K8S_HOST" {}
 variable "K8S_TOKEN" {}
 variable "K8S_CA_CERT" {}
 
+
 provider "kubernetes" {
   host = var.K8S_HOST
   token = var.K8S_TOKEN
